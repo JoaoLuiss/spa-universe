@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SPA Universe</title>
@@ -14,22 +16,35 @@
       content="Pequeno exemplo de site feito para treinar os aprendizados sobre SPA!"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <script src="./src/index.js" type="module" defer></script>
   </head>
 
   <body>
     <div class="page">
-      <nav>
+      <header>
         <img
           src="./assets/logo-universe.svg"
           alt="Image of solar system in Flat Design"
         />
-        <a href="/">Home</a> |
-        <a href="/the-universe">O Universo</a> |
-        <a href="/exploration">Exploração</a>
-      </nav>
+        <nav>
+          <ul>
+            <li><a href="/" title="Home">Home</a></li>
+            <li><a href="/the-universe" title="O Universo">O Universo</a></li>
+            <li><a href="/exploration" title="Exploração">Exploração</a></li>
+          </ul>
+        </nav>
+      </header>
 
-      <div class="app"></div>
+      <div id="app">
+        <div class="content-wrapper">
+          <h1>Explore o universo</h1>
+          <button>Quero saber mais</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
