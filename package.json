@@ -1,0 +1,23 @@
+{
+  "name": "spa-universe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoLuiss/spa-universe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoLuiss/spa-universe/issues"
+  },
+  "homepage": "https://github.com/JoaoLuiss/spa-universe#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
