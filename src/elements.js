@@ -1,4 +1,4 @@
-const linkHome = document.querySelector('[href="/spa-universe"]')
+const linkHome = document.querySelector('[href="/spa-universe/"]')
 const linkOUniverso = document.querySelector(
   '[href="/spa-universe/the-universe"]'
 )

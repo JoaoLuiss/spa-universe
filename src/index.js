@@ -6,7 +6,7 @@ const router = new Router()
 router.addRoute('/spa-universe/', '/spa-universe/pages/home.html')
 router.addRoute('/spa-universe/the-universe', '/spa-universe/pages/the-universe.html')
 router.addRoute('/spa-universe/exploration', '/spa-universe/pages/exploration.html')
-router.addRoute('/spa-universe/404', '/spa-universe/pages/404.html')
+router.addRoute(404, '/spa-universe/pages/404.html')
 
 const scenario = Scenario()
 
