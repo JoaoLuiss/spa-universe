@@ -57,7 +57,7 @@ header {
 
 nav ul {
   display: flex;
-  gap: 32rem;
+  gap: 52rem;
   list-style: none;
 }
 
@@ -69,6 +69,8 @@ nav ul li a {
   text-decoration: none;
 }
 
+/* 🔽 this whole ::before is to fix the text shift 
+that happens when :hover turns text into bold 🔽 */
 nav a::before {
   display: block;
   content: attr(title);
